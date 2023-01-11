@@ -2,7 +2,7 @@
 ```
 A testimonial Slider sample with Vue2 and Sass
 ```
-![image](/uploads/50661295ec77fb18bff5036549c24dfa/image.png)
+![image](https://i.postimg.cc/jS7rmsZQ/CPT2301111526-1202x932.gif)
 
 ## Project setup
 ```
