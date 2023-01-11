@@ -1,4 +1,7 @@
 # testimonial-slider1
+```
+A testimonial Slider sample with Vue2 and Sass
+```
 
 ## Project setup
 ```

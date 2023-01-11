@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+.testimonials{
+    .text {
+        color: #444;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    &__customer-info {
+        &__name {
+            color: #444;
+            font-size: 25px;
+            line-height: 50px;
+            font-family: 'Dosis', sans-serif;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+
+    &--slider {
+        &__item {
+            padding: 50px 10%;
+        }
+
+        &__inner {
+            padding: 60px 22px 24px;
+            border-radius: 10px;
+            background:#fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        &__image {
+            top: -50px;
+            right: 50%;
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            margin-right: -50px;
+            border: 10px solid #F9F9F9;
+            border-radius: 50%;
+            background-color: #F9F9F9;
+            position: absolute;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .text {
+            margin: 0 0 40px !important;
+            text-align: center;
+
+            @media only screen and (max-width:768px) {
+                text-align: justify !important;
+            }
+        }
+
+        .slide-item {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .r-slideshow {
+            .slideshow-pagination {
+                display: none;
+                background: transparent;
+
+                @media only screen and (max-width:768px) {
+                    right: 50% !important;
+                    bottom: 0;
+                    left: unset;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;
+                    border-radius: 0;
+                    transform: translateX(50%);
+                }
+
+                .swiper-pagination-bullet {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 2px;
+                    background-color: #f9ac42;
+                    opacity: 0.5;
+
+                    &-active {
+                        background-color: #f9ac42 !important;
+                        opacity: 1 !important;
+                    }
+                }
+            }
+
+            .slideshow-nav {
+                top: 12.5rem;
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                background: #f9ac42;
+
+                @media only screen and (max-width:768px) {
+                    display: none;
+                }
+
+                &-prev {
+                    right: 13%;
+
+                    @media only screen and (max-width:992px) and (min-width:768px) {
+                        right: 5%;
+                    }
+                }
+
+                &-next {
+                    left: 13%;
+
+                    @media only screen and (max-width:992px) and (min-width:768px) {
+                        right: 5%;
+                    }
+                }
+
+                .icon-wrap {
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    border: 0 !important;
+                    background: transparent !important;
+                }
+            }
+        }
+    }
+}

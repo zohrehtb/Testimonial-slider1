@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+main{
+    height: calc(100vh - 140px);
+    display: flex !important;
+    align-items: center;
+    overflow: hidden;
+}
